@@ -1,0 +1,19 @@
+.product-image {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.product-category {
+  color: var(--rose-400);
+  font-weight: 400;
+}
+
+.product-name {
+  color: var(--rose-900);
+  font-weight: 700;
+}
+
+.product-price {
+  color: var(--red);
+  font-weight: 600;
+}

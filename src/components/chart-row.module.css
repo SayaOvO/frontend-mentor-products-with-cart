@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 24px;
+  border-bottom: 1px solid var(--rose-100);
+}
+
+.product-name {
+  font-weight: 700;
+  color: var(--rose-900);
+}
+
+.product-amount {
+  color: var(--red);
+  font-weight: 600;
+}
+
+.product-price {
+  color: var(--rose-400);
+  margin-inline: 1em;
+}
+.product-total-money {
+  color: var(--rose-400);
+  font-weight: 600;
+  margin-left: auto;
+}
+
+.remove-icon {
+  border: 1px solid var(--rose-500);
+  padding: 4px;
+  border-radius: 100%;
+  background-color: transparent;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
